@@ -128,5 +128,14 @@ All coordinates systems and joints axis:
 
    ![Output file structure](./pictures/SW2URDF/output_file_structure.png)
 
+
+You can verify if your URDF file is working by using the Mujoco viewer. If you have installed Mujoco via pip, you can run the viewer with the following command:
+
+```bash
+python -m mujoco.viewer
+```
+
+![URDF check with mujoco viewer](./pictures/SW2URDF/urdf_check_with_mujoco_viewer.png)
+
 ### 8. Converting URDF to Mujoco XML (MJCF)
 - Follow conversion steps from URDF to Mujoco XML format.
